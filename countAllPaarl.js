@@ -6,7 +6,7 @@ for (var i=0; i<x.length; i++) {
 
 var values = x[i];
 if (values.startsWith("CJ")) {
-  y.push(values);
+  paarl.push(values);
 }
 }
 return (paarl);

@@ -1,4 +1,4 @@
-module.exports = function(){
+module.exports = function(regNr){
   if (regNr.startsWith ("CY")) {
 return "Bellville";
 }

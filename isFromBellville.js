@@ -1,3 +1,4 @@
-module.export = function(regNr){
-  return isFromBellville;
+module.exports = function(regNr){
+  var FromBellville = regNr.startsWith("CY");
+  return FromBellville;
 }

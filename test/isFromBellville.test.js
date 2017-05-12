@@ -1,6 +1,5 @@
-
-var assert = require ('assert')
 var isFromBellville = require('../isFromBellville.js')
+var assert = require ('assert')
 
 describe('The isFromBellville function', function(){
 

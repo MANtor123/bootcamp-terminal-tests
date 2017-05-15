@@ -9,5 +9,5 @@ if (values.startsWith("CJ")) {
   paarl.push(values);
 }
 }
-return (paarl);
+return paarl.length;
 };

@@ -1,4 +1,5 @@
 module.exports = function(regNr){
+
   var split = regNr.split(',')
   var town = [];
   for(var i =0; i < split.length; i++){
@@ -6,5 +7,6 @@ module.exports = function(regNr){
       town.push(split[i])
     }
   }
-  return town;
+  
+  return town.length;
 }
